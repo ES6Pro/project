@@ -97,6 +97,7 @@ body {
   opacity: 0;
   animation: slideBottom 1s ease forwards;
   animation-delay: 1s;
+  
 }
 
 .home-content h3 {
@@ -1031,55 +1032,3 @@ body {
 
 
 
-/* Form Styles */
-
-form {
-  margin-top: 20px; /* Adjust as needed */
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: border-color 0.3s;
-}
-
-.form-group input[type="text"]:focus,
-.form-group input[type="email"]:focus,
-.form-group textarea:focus {
-  border-color: #0ef; /* Change border color on focus */
-  outline: none;
-}
-
-.form-group textarea {
-  min-height: 150px; /* Adjust as needed */
-}
-
-.form-group button {
-  padding: 10px 20px;
-  background-color: #0ef;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.form-group button:hover {
-  background-color: #0bd; /* Darken button color on hover */
-}
